@@ -1,0 +1,101 @@
+nav ul {
+    list-style: none;
+}
+
+.title {
+    font-size: 50px;
+    background-color: rgb(221, 97, 14);
+    border-radius: 30px;
+    text-align: center;
+}
+
+.modified-title {
+    background-color: white;
+    color:rgb(221, 97, 14);
+}
+
+li{
+    background-color: rgb(209, 145, 86);
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.modified-ul {
+    background-color: rgb(221, 97, 14);
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.lorem1 {
+    color: rgb(195, 128, 41);
+}
+
+.lorem2 {
+    background-color: rgb(195, 128, 41);
+}
+
+
+.flex {
+    display: flex;
+}/*pour aligner toutes les balises avec classe flex*/
+
+.red {
+    color: red;
+    font-size: 24px;
+    background-color: pink;
+    width: 200px;
+}/*lorem1*/
+
+.pink{
+    font-size: 50px;
+    color: rgb(202, 89, 178);
+}
+
+.bg-blue {
+    background-color: rgb(154, 169, 189);
+}/*body*/
+
+.text {
+    color : green;
+}/*<p>*/
+
+.border {
+    border: solid 1px  black;
+    background-color: indigo;
+    border-radius: 15px;
+    width: 200px;
+}/*lorem2*/
+
+.yellow {
+    border: solid 1px  black;
+    background-color: yellow;
+    border-radius: 10px;
+}/*lorem3*/
+
+.yellow>p { 
+}/*tous les enfants direct de yellow qui sont des P*/
+
+.yellow p { /*tous les enfants qui sont des P*/
+}
+
+#lorem2>p { 
+    color: red;
+}/*seul enfants direct de cette div seront impactés*/
+
+.texte {
+    color: red;
+}/*lorem3*/
+
+@media screen and (max-width:550px){
+    .title {
+        font-size: 10px;
+        width: 500px;
+    }
+
+}
